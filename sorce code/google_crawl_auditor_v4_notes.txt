@@ -1,0 +1,15 @@
+Files to keep together in the same folder:
+- google_crawl_auditor_gui_v3_sitewide.py
+- google_crawl_auditor_gui_v4_sitewide.py
+- requirements_google_crawl_auditor_v4.txt
+
+Run:
+pip install -r requirements_google_crawl_auditor_v4.txt
+python google_crawl_auditor_gui_v4_sitewide.py
+
+This v4 file imports the v3 auditor module and extends it with:
+- full-site navigation tracking
+- per-page explanations in full website mode
+- depth control (default 3)
+- clearer Pages / Navigation / Technical views
+- extra Google-aligned crawl/index checks
